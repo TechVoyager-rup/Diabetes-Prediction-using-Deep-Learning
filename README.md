@@ -1,6 +1,6 @@
 # 🩺 Diabetes Predictor
 
-A Streamlit web-app that screens for Type-2 diabetes risk using a pre-trained Artificial Neural Network (ANN).  
+A Streamlit web-app that screens for Diabetes risk using Artificial Neural Network (ANN).  
 Simply enter a patient’s basic health metrics and the app returns an **instant likelihood of diabetes** plus personalised lifestyle guidance.
 
 ---
@@ -74,27 +74,6 @@ Then open the printed localhost URL in your browser.
 
 ---
 
-## 🏗️ Retraining the Model (optional)
-
-1. Open `Diabetes Prediction.ipynb`.
-2. Run all cells to:
-   * Clean & scale data  
-   * Split 80 / 20  
-   * Build ANN (input-8 → Dense 16 ReLU → Dense 8 ReLU → Dense 1 Sigmoid)  
-   * Save weights to `Models/ann_model.h5`.
-3. Replace the weight file in `Models/` and restart the Streamlit app.
-
-Feel free to tweak layer sizes, epochs or optimisers.
-
----
-
-## 🖼️ Screenshots
-| Home Page | Diagnostic Report |
-|-----------|-------------------|
-| *(Add `assets/home.png`)* | *(Add `assets/report.png`)* |
-
----
-
 ## 🩹 Disclaimer  
 This tool **does not provide a medical diagnosis**. It is intended for educational purposes. Always consult a qualified clinician before making health decisions.
 
@@ -114,4 +93,4 @@ Pull requests are welcome! Please open an issue first to discuss your ideas.
 ---
 
 Made with ❤️ by **Rupanjan Ghosh**  
-Feel free to connect on [LinkedIn](https://www.linkedin.com/)!
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/rupanjan-ghosh/)!
