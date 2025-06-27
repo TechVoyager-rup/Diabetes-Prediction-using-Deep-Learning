@@ -12,7 +12,6 @@ Simply enter a patient’s basic health metrics and the app returns an **instant
 | **Clean, modern UI** | Gradient background, big headline, responsive sidebar inputs. |
 | **Accurate ANN model** | Trained on the Pima Indians Diabetes dataset; achieves ±⁠78-80 % test accuracy. |
 | **Actionable feedback** | • **Healthy users**: positive habit checklist.<br>• **At-risk users**: step-by-step caution plan. |
-| **Patient name field** | Easily tag each record; great for clinicians or batch testing. |
 | **Fully open-source** | All code, data and weights included for transparency and retraining. |
 
 ---
@@ -24,7 +23,6 @@ Simply enter a patient’s basic health metrics and the app returns an **instant
 ├── Models/
 │   └── ann_model.h5      # Saved Keras model
 ├── diabetes.csv          # Raw dataset (768 × 9)
-├── requirements.txt      # Python deps
 └── README.md             # <— you are here
 ```
 
@@ -34,17 +32,14 @@ Simply enter a patient’s basic health metrics and the app returns an **instant
 
 ```bash
 # 1. Clone
-git clone https://github.com/your-handle/diabetes-predictor.git
-cd diabetes-predictor
+git clone https://github.com/TechVoyager-rup/Diabetes-Prediction-using-Deep-Learning.git
+cd Diabetes-Prediction-using-Deep-Learning
 
 # 2. Create env (optional)
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
-# 3. Install deps
-pip install -r requirements.txt
-
-# 4. Launch
+# 3. Launch
 streamlit run app.py
 ```
 
@@ -107,11 +102,6 @@ This tool **does not provide a medical diagnosis**. It is intended for education
 
 ## 🤝 Contributing
 Pull requests are welcome! Please open an issue first to discuss your ideas.
-
----
-
-## 📜 License
-Released under the MIT License – see `LICENSE` for details.
 
 ---
 
